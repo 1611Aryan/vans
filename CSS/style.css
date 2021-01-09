@@ -42,7 +42,7 @@ li {
     color: white;
     font-size: 2rem;
     cursor: pointer;
-    transition: all ease-out 0.3s;
+    transition: color ease-out 0.3s;
 }
 
 li:hover {
@@ -102,7 +102,7 @@ button {
     font-size: 1.25rem;
     color: white;
     cursor: pointer;
-    transition: all ease-out 0.7s;
+
 }
 
 .btn1 {
@@ -112,6 +112,7 @@ button {
 .btn1:hover {
     background: white;
     color: #C9192E;
+    transition: background ease-out 0.7s, color ease-out 0.7s;
 }
 
 .btn2 {
@@ -122,15 +123,17 @@ button {
 .btn2:hover {
     background: white;
     color: black;
+    transition: background ease-out 0.7s, color ease-out 0.7s;
 }
 
 .vans {
     z-index: 3;
     width: 40%;
     transform: rotateZ(-12deg);
-    transition: all ease-out 0.7s;
+    transition: transform ease-in-out 0.3s;
 }
 
 .vans:hover {
     transform: rotateZ(0deg);
+    transition: transform ease-out 0.7s;
 }
